@@ -18,10 +18,14 @@ body {
   margin: 0 auto;
 }
 
-.grid-wrapper:nth-child(1) {
-  padding-top: 1rem;
-}
 .ui.card {
   width: 30%;
-  height: 38vh;
+}
+
+.ui.card:first-child {
+  margin-top: 1em !important;
+}
+
+.description {
+  font-size: 1.5vw !important;
 }

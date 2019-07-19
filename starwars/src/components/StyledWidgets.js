@@ -13,4 +13,6 @@ export const CardContainer = styled.div`
 export const Heading = styled.h1`
   font-size: 1.4rem;
   color: white;
+  text-align: center;
+  padding-bottom: 2rem;
 `;
