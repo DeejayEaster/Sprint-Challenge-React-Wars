@@ -14,6 +14,7 @@ const Grid = () => {
     console.log("first render");
     axios.get("https://swapi.co/api/people/").then(res => {
       setData(res.data.results);
+      console.log(res.datas);
     });
   }, []);
   if (!persondata) {

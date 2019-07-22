@@ -28,3 +28,5 @@ const App = () => {
 };
 
 export default App;
+
+// Build it all again, this time as a single card (reactstrap) with buttons that onclick lead to the data.next prop

@@ -20,12 +20,9 @@ body {
 
 .ui.card {
   width: 30%;
+  line-height: 4vh !important;
 }
 
 .ui.card:first-child {
   margin-top: 1em !important;
-}
-
-.description {
-  font-size: 1.5vw !important;
 }
